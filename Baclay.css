@@ -1104,7 +1104,7 @@ input:focus, textarea:focus, select:focus
 #wb_ResponsiveMenu1 ul li a
 {
    background-color: #2D2D2D;
-   color: #FFFFFF;
+   color: #FF8000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
@@ -1186,7 +1186,7 @@ input:focus, textarea:focus, select:focus
    height: 0;
    margin-left: 0px;
    vertical-align: middle;
-   border-top: 4px solid #FFFFFF;
+   border-top: 4px solid #FF8000;
    border-right: 4px solid transparent;
    border-left: 4px solid transparent;
    border-bottom: 0 dotted;
@@ -1255,7 +1255,7 @@ input:focus, textarea:focus, select:focus
 {
    display: block;
    background-color: #2D2D2D;
-   color: #FFFFFF;
+   color: #FF8000;
    padding: 0 5px 0 5px;
    line-height: 34px;
    text-decoration: none;
@@ -1346,8 +1346,8 @@ input:focus, textarea:focus, select:focus
    display: block;
    margin-top: 4px;
    height: 2px;
-   background-color: #FFFFFF;
-   color: #FFFFFF;
+   background-color: #FF8000;
+   color: #FF8000;
    width: 24px;
 }
 #wb_ResponsiveMenu1 ul li ul li .toggle:hover
@@ -1357,7 +1357,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 .toggle .arrow-down 
 {
-   border-top-color: #FFFFFF;
+   border-top-color: #FF8000;
 }
 #wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
 {

@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <title>XoXo</title>
-<link href="_Orange.png" rel="icon" sizes="502x500" type="image/png">
 <meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
 <link href="_Orange.png" rel="icon" sizes="502x500" type="image/png">
 <link href="base/jquery-ui.min.css" rel="stylesheet">
@@ -11,7 +10,6 @@
 <link href="YNATAY.css" rel="stylesheet">
 <link href="Sevilla.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
 <script src="util.min.js"></script>
 <script src="modal.min.js"></script>
 <script src="searchindex.js"></script>
@@ -40,7 +38,6 @@ function searchPage(features)
 <script>
 $(document).ready(function()
 {
-   $("#Layer1").stickylayer({orientation: 1, position: [0, 0], delay: 0, keepOriginalPos: true});
    searchParseURL('SiteSearch2');
 });
 </script>
@@ -74,7 +71,7 @@ $(document).ready(function()
 <span style="color:#FFFFFF;font-family:'Comic Sans MS';font-size:24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra fermentum eros non maximus. </span></div>
 <div id="wb_Text3" style="position:absolute;left:603px;top:284px;width:378px;height:155px;text-align:justify;z-index:35;">
 <span style="color:#FFFFFF;font-family:Arial;font-size:21px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra fermentum eros non maximus. Cras posuere diam vel augue consequat vulputate. Nulla lacus augue, vestibulum et porttitor non, aliquam sit amet lectus. Donec nec dapibus felis, vitae bibendum magna. Cras semper interdum nulla eget pellentesque. <strong>SEVILLA</strong></span></div>
-<div id="Layer1" style="position:absolute;text-align:center;left:0px;top:0px;width:1535px;height:62px;z-index:36;">
+<div id="Layer1" style="position:fixed;text-align:center;left:0px;top:0px;width:1535px;height:62px;z-index:36;">
 <div id="Layer1_Container" style="width:1535px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <a id="Button1" href="./Portfolio.html" title="Home" style="position:absolute;left:1466px;top:0px;width:47px;height:61px;z-index:0;"></a>
 <a id="Button2" href="./Contact.html" title="Home" style="position:absolute;left:1419px;top:0px;width:47px;height:61px;z-index:1;"></a>
@@ -103,14 +100,14 @@ $(document).ready(function()
 <form name="SiteSearch2_form" id="SiteSearch2_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)">
 <input type="text" id="SiteSearch2" style="position:absolute;left:271px;top:12px;width:934px;height:24px;z-index:16;" name="SiteSearch1" value="" spellcheck="false" placeholder="Search this website" role="searchbox"></form>
 <div id="wb_Image2" style="position:absolute;left:287px;top:17px;width:27px;height:26px;z-index:17;">
-<a href="./index.html"><img src="images/orange.png" id="Image2" alt="" width="27" height="17"></a></div>
+<a href="./index.html.html"><img src="images/orange.png" id="Image2" alt="" width="27" height="26"></a></div>
 <div id="wb_ResponsiveMenu1" style="position:absolute;left:28px;top:0px;width:47px;height:62px;z-index:18;">
 <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
 <input type="checkbox" id="ResponsiveMenu1-submenu">
 <ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
 <li role="menuitem">
 <label for="ResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-star fa-2x">&nbsp;</i><b class="arrow-down"></b></label>
-<a href="./index.html" class="active"><i class="fa fa-star fa-2x">&nbsp;</i><br><b class="arrow-down"></b></a>
+<a href="javascript:void(0)" class="active"><i class="fa fa-star fa-2x">&nbsp;</i><br><b class="arrow-down"></b></a>
 <input type="checkbox" id="ResponsiveMenu1-submenu-0">
 <ul role="menu">
 <li role="menuitem"><a href="./Alde.html"><i class="fa fa-caret-right fa-2x">&nbsp;</i>Alde,&nbsp;Charies&nbsp;Ann&nbsp;</a></li>
